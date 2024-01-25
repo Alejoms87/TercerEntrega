@@ -1,0 +1,36 @@
+.contenedor_guia {
+    display: grid;
+    grid-template-columns: repeat(1, 3fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    .columna_guia {
+        display: flex;
+        flex-direction: column;
+        .fila_guia {
+            margin-bottom: 50px;
+            .texto_guia {
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+            .tarjeta_guia {
+                width: 100%;
+                background-color: #f0f0f0;
+                padding: 10px;
+                border-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}

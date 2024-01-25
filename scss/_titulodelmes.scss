@@ -1,0 +1,44 @@
+.titulo_mes {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+}
+.contenedor-tarjeta-mes {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 400px;
+  height: auto;
+  box-sizing: content-box;
+  .tarjeta-mes {
+    height: auto;
+    width: auto;
+    box-sizing: content-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+    .img_mes {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    .texto_mes {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        box-sizing: content-box;
+      }
+  }
+}

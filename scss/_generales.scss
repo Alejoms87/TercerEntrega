@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+/* Media Queries */
+@media (max-width: 1200px) {
+  .tarjeta {
+    width: calc(33.33% - 20px);
+  }
+}
+
+@media (max-width: 992px) {
+  .tarjeta {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .tarjeta {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 576px) {
+  .tarjeta {
+    width: calc(100% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    padding: 10px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}

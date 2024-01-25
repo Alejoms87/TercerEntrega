@@ -1,0 +1,25 @@
+.home_container {
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.container_ultimas {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    .row {
+        .col-md-4 {
+            .card {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

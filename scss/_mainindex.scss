@@ -1,0 +1,36 @@
+.home_container {
+        height: 200px;
+        width: 100%;
+        justify-content: center ;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+
+.separador {
+    border: 2px solid rgba(0, 0, 0, 0.974);
+  }
+.carrousel_container {
+    .carousel {
+        max-width: 800px;
+        margin: auto;
+    }
+}
+.carousel-inner {
+    .carousel-item {
+        img {
+            height: 600px;
+            width: auto;
+        }
+    }
+}
+.container {
+    h2 {
+        text-align: center;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,57 @@
+.analisis {
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  
+}
+.subtitulo {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+  }
+.carrousel_container {
+    .carousel {
+        max-width: 800px;
+        margin: auto;
+        .carousel-inner {
+            .carousel-item {
+                img {
+                    height: 600px;
+                    width: auto;
+                  }
+            }
+        }
+    }
+}
+.columna {
+    
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  .fila {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 10px;
+    flex-direction: row;
+    .circulos {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: #3498db;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+    .imagen {
+        width: 300px;
+        width: 300px;
+      }
+  }
+
+}
