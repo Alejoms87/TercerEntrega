@@ -47,6 +47,17 @@ header .logo {
   filter: brightness(1.5);
   display: flex;
   flex-wrap: wrap;
+  animation: encendido 2s forwards;
+}
+@keyframes encendido {
+  0% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 header nav {
   display: flex;
@@ -68,7 +79,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a {
   padding: 1em;
   font-size: 1.2em;
 }
-header nav .navbar .collapse ul .navbar-nav .nav-item:hover {
+header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   background-color: green;
   text-decoration: none;
 }

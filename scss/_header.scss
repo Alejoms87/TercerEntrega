@@ -1,58 +1,66 @@
 header {
-    
-        background-color: #080808;
-        padding: 10px;
-        color: #fff;
-        height: 100px;
-        text-decoration: none;
-        display: flex;
-        flex-direction: row;
-        align-items: map-get($flexbox , alinearitems );
-        justify-content: space-evenly;
+    background-color: #080808;
+    padding: 10px;
+    color: #fff;
+    height: 100px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: map-get($flexbox, alinearitems);
+    justify-content: space-evenly;
 
-        .logo {
-            font-size: 1.5em;
-            filter: brightness(1.5);
-            display: flex;
-            flex-wrap: wrap;
+    .logo {
+        font-size: 1.5em;
+        filter: brightness(1.5);
+        display: flex;
+        flex-wrap: wrap;
+        animation: encendido 2s forwards;
+    }
+
+    @keyframes encendido {
+        0% {
+            opacity: 0;
+            transform: scale(0.3);
         }
-        nav {
-            display: flex;
-            justify-content: space-evenly;
-            align-items: map-get($flexbox , alinearitems );
-            flex-direction: row;
-            flex-wrap: wrap;
-            height: auto;
-            width: auto;
-            .navbar {
-                background: black !important;
-                
-        .collapse {
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: map-get($flexbox, alinearitems);
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: auto;
+        width: auto;
+
+        .navbar {
+            background: black !important;
+
+            .collapse {
                 ul {
                     .navbar-nav {
                         .nav-item {
                             a {
-                            display: flex;
-                            flex-direction: wrap;
-                            text-decoration: none;
-                            color: white;
-                            padding: 1em;
-                            font-size: 1.2em;
-                            }
-                            &:hover {
-                                background-color: green;
+                                display: flex;
+                                flex-direction: wrap;
                                 text-decoration: none;
+                                color: white;
+                                padding: 1em;
+                                font-size: 1.2em;
+
+                                &:hover {
+                                    background-color: green;
+                                    text-decoration: none;
+                                }
                             }
                         }
-
                     }
                 }
             }
         }
-                
-              }
-        }
-    
-
-    
-    
+    }
+}
