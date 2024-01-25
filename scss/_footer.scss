@@ -6,8 +6,8 @@
   text-decoration: none;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: map-get($flexbox , justificarcontenido );
+  align-items: map-get($flexbox , alinearitems );
   .social-icons {
     list-style-type: none;
     display: flex;
@@ -15,7 +15,7 @@
     width: 200px;
     height: 50px;
     justify-content: space-around;
-    align-items: center;
+    align-items: map-get($flexbox , alinearitems );
     flex-direction: row;
     filter: brightness(5.5);
   }

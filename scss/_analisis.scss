@@ -40,10 +40,10 @@
         width: 30px;
         height: 30px;
         border-radius: 50%;
-        background-color: #3498db;
+        background-color: map-get($fondo , fondo );
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: map-get($flexbox, alinearitems );
+        align-items: map-get($flexbox, justificarcontenido );
         color: #fff;
         font-weight: bold;
         margin-right: 10px;

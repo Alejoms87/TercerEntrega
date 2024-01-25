@@ -7,7 +7,7 @@ header {
         text-decoration: none;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: map-get($flexbox , alinearitems );
         justify-content: space-evenly;
 
         .logo {
@@ -19,7 +19,7 @@ header {
         nav {
             display: flex;
             justify-content: space-evenly;
-            align-items: center;
+            align-items: map-get($flexbox , alinearitems );
             flex-direction: row;
             flex-wrap: wrap;
             height: auto;

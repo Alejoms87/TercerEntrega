@@ -36,18 +36,18 @@
                 box-sizing: border-box;
             }
             .boton_enviar {
-                background-color: #3498db;
+                background-color: map-get($fondo , fondo );
                 color: #fff;
                 padding: 10px;
                 display: flex;
-                justify-content: center;
-                align-items: center;
+                justify-content: map-get($flexbox , justificarcontenido );
+                align-items: map-get($flexbox , alinearitems );
                 border: none;
                 border-radius: 5px;
                 cursor: pointer;
               }
             button {
-                background-color: #3498db;
+                background-color: map-get($fondo , fondo );
                 color: #fff;
                 padding: 10px;
                 border: none;
