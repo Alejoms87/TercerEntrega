@@ -68,7 +68,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a {
   padding: 1em;
   font-size: 1.2em;
 }
-header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
+header nav .navbar .collapse ul .navbar-nav .nav-item:hover {
   background-color: green;
   text-decoration: none;
 }
@@ -231,7 +231,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
-.contenedor-centrado .contenedor-formulario form .boton_enviar {
+.contenedor-centrado .contenedor-formulario form .boton_enviar, .contenedor-centrado .contenedor-formulario form .boton_cancelar {
   background-color: #3498db;
   color: #fff;
   padding: 10px;
@@ -242,7 +242,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   border-radius: 5px;
   cursor: pointer;
 }
-.contenedor-centrado .contenedor-formulario form button {
+.contenedor-centrado .contenedor-formulario button {
   background-color: #3498db;
   color: #fff;
   padding: 10px;
@@ -250,7 +250,6 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   border-radius: 5px;
   cursor: pointer;
 }
-
 .contenedor_guia {
   display: grid;
   grid-template-columns: repeat(1, 3fr);

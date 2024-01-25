@@ -30,10 +30,7 @@
                 box-sizing: border-box;
             }
             select {
-                width: 100%;
-                padding: 8px;
-                margin-bottom: 10px;
-                box-sizing: border-box;
+                @include selector;
             }
             .boton_enviar {
                 background-color: map-get($fondo , fondo );
@@ -46,6 +43,8 @@
                 border-radius: 5px;
                 cursor: pointer;
               }
+            
+            }
             button {
                 background-color: map-get($fondo , fondo );
                 color: #fff;
@@ -54,6 +53,10 @@
                 border-radius: 5px;
                 cursor: pointer;
               }
+            .boton_cancelar{
+                @extend .boton_enviar;
+                
+                
         }
     }
 } 
