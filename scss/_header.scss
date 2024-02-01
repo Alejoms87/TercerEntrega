@@ -15,6 +15,7 @@ header {
         display: flex;
         flex-wrap: wrap;
         animation: encendido 2s forwards;
+        margin-right: 20px;
     }
 
     @keyframes encendido {
@@ -64,3 +65,4 @@ header {
         }
     }
 }
+
