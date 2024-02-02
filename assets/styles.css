@@ -35,7 +35,7 @@ header {
   background-color: #080808;
   padding: 10px;
   color: #fff;
-  height: 100px;
+  /* height: 100px; */
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -74,7 +74,7 @@ header nav .navbar {
 }
 header nav .navbar .collapse ul .navbar-nav .nav-item a {
   display: flex;
-  flex-direction: wrap;
+  flex-direction: row;
   text-decoration: none;
   color: white;
   padding: 1em;
@@ -135,7 +135,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   background-color: #080808;
   padding: 10px;
   color: #fff;
-  height: 200px;
+  /* height: 200px; */
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -191,11 +191,11 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   justify-content: center;
 }
 .columna .fila .circulos {
-  width: 30px;
-  height: 30px;
+  /* width: 30px;
+  height: 30px; */
   border-radius: 50%;
   margin: 10px;
-  padding: 30px;
+  padding: 12px;
   background-color: #3498db;
   display: flex;
   justify-content: center;
@@ -233,7 +233,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
 }
 .contenedor-centrado .contenedor-formulario {
   width: 400px;
-  padding: 20px;
+  padding: 5px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
