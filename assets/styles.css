@@ -115,6 +115,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
 .container .card {
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 .container .card .circulo {
   position: absolute;
