@@ -35,7 +35,7 @@ header {
   background-color: #080808;
   padding: 10px;
   color: #fff;
-  /* height: 100px; */
+  height: 100px;
   text-decoration: none;
   display: flex;
   flex-direction: row;
@@ -70,11 +70,11 @@ header nav {
   width: auto;
 }
 header nav .navbar {
-  background: black !important;
+  background: black;
 }
 header nav .navbar .collapse ul .navbar-nav .nav-item a {
   display: flex;
-  flex-direction: row;
+  flex-direction: wrap;
   text-decoration: none;
   color: white;
   padding: 1em;
@@ -104,11 +104,6 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   margin: auto;
 }
 
-.carousel-inner .carousel-item img {
-  height: 600px;
-  width: auto;
-}
-
 .container h2 {
   text-align: center;
 }
@@ -135,7 +130,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   background-color: #080808;
   padding: 10px;
   color: #fff;
-  /* height: 200px; */
+  height: 200px;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -172,10 +167,6 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   max-width: 800px;
   margin: auto;
 }
-.carrousel_container .carousel .carousel-inner .carousel-item img {
-  height: 600px;
-  width: auto;
-}
 
 .columna {
   display: flex;
@@ -191,11 +182,11 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   justify-content: center;
 }
 .columna .fila .circulos {
-  /* width: 30px;
-  height: 30px; */
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   margin: 10px;
-  padding: 12px;
+  padding: 30px;
   background-color: #3498db;
   display: flex;
   justify-content: center;
@@ -228,12 +219,12 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: auto;
   margin: 20px;
 }
 .contenedor-centrado .contenedor-formulario {
   width: 400px;
-  padding: 5px;
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
