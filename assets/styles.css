@@ -115,6 +115,7 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
 .container .card {
   display: flex;
   flex-direction: column;
+  margin: 10px;
 }
 .container .card .circulo {
   position: absolute;
@@ -187,11 +188,14 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   align-items: center;
   margin-bottom: 10px;
   flex-direction: row;
+  justify-content: center;
 }
 .columna .fila .circulos {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin: 10px;
+  padding: 30px;
   background-color: #3498db;
   display: flex;
   justify-content: center;
@@ -200,9 +204,15 @@ header nav .navbar .collapse ul .navbar-nav .nav-item a:hover {
   font-weight: bold;
   margin-right: 10px;
 }
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 .columna .fila .imagen {
-  width: 300px;
-  width: 300px;
+  width: 100%;
 }
 
 .contactanos {
