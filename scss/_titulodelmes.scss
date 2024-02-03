@@ -13,33 +13,33 @@
   height: auto;
   box-sizing: content-box;
   .tarjeta-mes {
-    height: auto;
-    width: auto;
-    box-sizing: content-box;
+    // height: auto;
+    // width: auto;
+    // box-sizing: content-box;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: wrap;
     justify-content: map-get($flexbox , justificarcontenido );
     align-items: map-get($flexbox , alinearitems );
     padding: 30px;
-    margin: 10px;
+    // margin: 10px;
     .img_mes {
         max-width: 100%;
-        height: auto;
+        // height: auto;
         margin-bottom: 10px;
-        display:flex;
+        // display:flex;
       }
     .texto_mes {
         text-align: center;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
+        // display: flex;
+        // flex-direction: column;
+        // flex-wrap: wrap;
         justify-content: map-get($flexbox , justificarcontenido );
         align-items: map-get($flexbox , alinearitems );
-        box-sizing: content-box;
+        // box-sizing: content-box;
       }
   }
 } 
