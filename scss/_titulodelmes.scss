@@ -1,45 +1,35 @@
 .titulo_mes {
-    text-align: center;
-    justify-content: map-get($flexbox , justificarcontenido );
-    display: flex;
-    margin: 50px;
-}
-.contenedor-tarjeta-mes {
-  margin: 10px;
+  text-align: center;
+  justify-content: map-get($flexbox , justificarcontenido );
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: auto;
-  height: auto;
-  box-sizing: content-box;
-  .tarjeta-mes {
-    // height: auto;
-    // width: auto;
-    // box-sizing: content-box;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    text-align: center;
-    // display: flex;
-    // flex-direction: column;
-    // flex-wrap: wrap;
-    justify-content: map-get($flexbox , justificarcontenido );
-    align-items: map-get($flexbox , alinearitems );
-    padding: 30px;
-    // margin: 10px;
-    .img_mes {
-        max-width: 100%;
-        // height: auto;
-        margin-bottom: 10px;
-        // display:flex;
-      }
-    .texto_mes {
-        text-align: center;
-        // display: flex;
-        // flex-direction: column;
-        // flex-wrap: wrap;
-        justify-content: map-get($flexbox , justificarcontenido );
-        align-items: map-get($flexbox , alinearitems );
-        // box-sizing: content-box;
-      }
+  margin: 50px;
+}
+
+.contenedor-tarjeta-mes {
+margin: 10px;
+display: flex;
+flex-direction: column; // Cambiado de row a column para dispositivos móviles
+align-items: center; // Alinear elementos al centro
+
+.tarjeta-mes {
+  width: 100%; // O ajusta según tus necesidades
+  box-sizing: border-box; // Cambiado de content-box a border-box para considerar el borde
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 20px; // Ajusta según tus necesidades
+
+  .img_mes {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 10px;
   }
-} 
+
+  .texto_mes {
+      text-align: center;
+      justify-content: map-get($flexbox , justificarcontenido );
+      align-items: map-get($flexbox , alinearitems );
+  }
+}
+}
