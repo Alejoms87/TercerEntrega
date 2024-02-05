@@ -8,17 +8,17 @@
 .contenedor-tarjeta-mes {
 margin: 10px;
 display: flex;
-flex-direction: column; // Cambiado de row a column para dispositivos móviles
-align-items: center; // Alinear elementos al centro
+flex-direction: column; 
+align-items: center; 
 
 .tarjeta-mes {
-  width: 100%; // O ajusta según tus necesidades
-  box-sizing: border-box; // Cambiado de content-box a border-box para considerar el borde
+  width: 100%; 
+  box-sizing: border-box; 
   border: 1px solid #ccc;
   border-radius: 5px;
   text-align: center;
   padding: 30px;
-  margin-bottom: 20px; // Ajusta según tus necesidades
+  margin-bottom: 20px; 
 
   .img_mes {
       max-width: 100%;
